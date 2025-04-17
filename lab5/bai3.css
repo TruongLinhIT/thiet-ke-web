@@ -1,0 +1,4 @@
+th:hover {
+    background: red;
+    cursor: pointer;
+}

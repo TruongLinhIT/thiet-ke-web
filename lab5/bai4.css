@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-button {
+    position: relative;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(56, 214, 28);
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background: none;
+}
+
+/* Tạo 2 lớp màu ẩn ban đầu */
+.custom-button::before,
+.custom-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.custom-button::before {
+    left: -50%;
+    background: red;
+}
+
+.custom-button::after {
+    right: -50%;
+    background: blue;
+}
+
+/* Khi hover vào button, hai màu chạy vào */
+.custom-button:hover::before {
+    left: 0;
+    opacity: 1;
+}
+
+.custom-button:hover::after {
+    right: 0;
+    opacity: 1;
+}
+
+.custom-button span {
+    position: relative;
+    z-index: 2;
+}

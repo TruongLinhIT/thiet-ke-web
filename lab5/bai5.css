@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Tạo gạch dưới */
+.button-container::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background: blue;
+    transition: width 0.4s ease, left 0.4s ease;
+}
+
+/* Khi hover, gạch dưới mở rộng ra hai bên */
+.button-container:hover::after {
+    width: 60%;
+    left: 20%;
+}

@@ -1,0 +1,9 @@
+li :hover{
+    background: red;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
