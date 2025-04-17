@@ -1,0 +1,13 @@
+table, th, td ,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.maunen{
+    background-color: red;
+    color: white;
+}
+
+th ,td{
+    border-color: gold;
+}
