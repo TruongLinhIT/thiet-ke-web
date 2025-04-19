@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0;}
+
+#header {
+    background: rgb(220, 97, 220);
+    min-height: 100px;
+}
+
+#left {
+    background: rgb(77, 202, 237);
+    margin: 10px;
+    height: 20px;
+    width: 250px;
+    
+}
+
+#right {
+    background: rgb(77, 202, 237);
+    margin: 10px;
+    min-height:300px ;
+    width: 250px;
+    
+}
+
+#footer {
+    background: rgb(15, 15, 172);
+    min-height: 80px;
+}
+
+.stleft {
+    float: left;
+}
+.stright {
+    float: right;
+}
+.clr {
+    clear: both;
+}
+
+b {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}

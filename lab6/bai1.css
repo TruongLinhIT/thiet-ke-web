@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+
+#mainWap {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#header {
+    background: greenyellow;
+    padding: 10px;
+    
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#left {
+    background: yellow;
+    text-align: center;
+    width: 200px;
+    
+    padding: 10px;
+    float: left;
+    min-height: 450px
+
+}
+#right {
+    background: blue;
+    text-align: center;
+    width: 700px;
+    min-height: 450px;
+    padding: 10px;
+    float: right;
+    margin-left: 10px;
+
+}
+
+.clr {
+    clear: both;
+    
+}
+
+#footer {
+    background: grey;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    
+}

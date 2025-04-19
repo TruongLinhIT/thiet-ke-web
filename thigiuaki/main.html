@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+</head>
+<style>
+   *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    .container{
+        display: flex;
+        max-width: 900px;
+        height: 720px;
+        
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        height: 100%;
+        
+        background-color: lightgray;
+    }
+    .left1{
+        width: 100%;
+        height: 30%;
+        
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left1 img {
+        border-radius: 100px;
+        display: flex;
+        
+        padding: 50px 0xp 0px 0px;
+    }
+    .left2{
+        width: 100%;
+        height: 80%;
+        padding-left: 20px;
+        /* padding: 5px 0px 5px 0px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        
+        width: 80%;
+        height: 700px;
+    }
+    .right-head{
+        width: 100%;
+        height: 220px;
+        
+        
+        display: flex;
+    }
+    .right-mid{
+        width: 100%;
+        height: 270px;
+        background-color: lightgray;
+        display: flex;
+        
+        margin: 5px 0px 5px 5px;
+    }
+    .right-foot{
+        width: 100%;
+        height: 250px;
+        margin: 5px 0px 0px 5px;
+        display: flex;
+        background-color: lightgray;
+    }
+    .head1{
+        width: 65%;
+        height: 190px;
+        background-color: lightgray;
+        margin: 5px;
+        display: flex;
+    }
+    .head2{
+        width: 35%;
+        height: 190px;
+        background-color: lightgray;
+        margin: 5px;
+        border-radius: 10px;
+    }
+    .head1_1{
+        width: 40%;
+        height: 100%;
+        
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    .head1_1 img {
+        align-items: center;
+        border-radius: 100px;
+    }
+    .head1_2{
+        width: 60%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .head2_1{
+        width: 100%;
+        height: 65px;
+        
+        display: flex;
+    }
+    .head2_1_1{
+        width: 30%;
+        height: 100%;
+        
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .head2_1_2{
+        width: 70%;
+        height: 100%;
+        
+        
+    }
+    .mid1{
+        width: 40%;
+        height: 250px;
+       
+        margin: 10px 5px 10px 10px;
+    }
+    .mid2{
+        width: 60%;
+        height: 250px;
+        background-color: white;
+        margin: 10px 10px 10px 5px;
+    }
+    .mid2-text{
+        width: 100%;
+        height: 100px;
+       
+        padding: 15px;
+    }
+    .mid2-ul{
+        width: 100%;
+        height: 100px;
+       
+        display: flex;
+        
+    }
+    .mid2-bt{
+        width: 100%;
+        height: 50px;
+       
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .ul-right{
+        width: 50%;
+        height: 100%;
+       
+        padding: 20px;
+    }
+    .ul-left{
+        width: 50%;
+        height: 100%;
+       
+        padding: 20px;
+    }
+    .foot1{
+       
+        width: 25%;
+        height: 220px;
+        margin: 10px 5px 10px 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    .foot1_1{
+        
+        width: 100%;
+        height: 30%;
+        display: flex;
+        
+        justify-content: center;
+        justify-items: center;
+    }
+    .foot1_2{
+       
+        width: 100%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
+    .foot1_3{
+        
+        width: 100%;
+        height: 15%;
+    }
+    @media only screen and (max-width: 700px){
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left1">
+                <img src="h1.jpg" style="width:100px ;height: 100px;">
+                <b style="font-size: 20px;">EcoMart</b>
+                
+            </div>
+            <div class="left2">
+                <hr>
+                <ul>
+                    <li>Giới thiệu</li>
+                    <li>Về sản phẩm</li>
+                    <li>Nhận cây trồng</li>
+                    <li>Thanh toán</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-head">
+                <div class="head1">
+                    <div class="head1_1">
+                        <img src="h1.jpg" style="width: 150px;height: 150px;">
+                    </div>
+                    <div class="head1_2">
+                        <h3>Môi trường hôm nay- cuộc sống ngày mai</h3>
+                        <br>
+                        <p>Môi trường hôm nay- cuộc sống ngày mai</p>
+                        <br>
+                        <b>Hãy hành động đừng lưỡng lự</b>
+                        <br>
+                        
+                        <input type="button" name="Đặt mua ngay" value="Đặt mua ngay" style="width: 100px; border-radius: 10px;color: white;background-color: black;">
+                    </div>
+                </div>
+                <div class="head2">
+                    <div class="head2_1">
+                        <div class="head2_1_1">
+                            <img src="h1.jpg" style="width: 50px;"> 
+                        </div>
+                        <div class="head2_1_2">
+                            <p>So diem tich luy</p>
+                            <b>400</b>
+                        </div>
+                    </div>
+                    <div class="head2_1">
+                        <div class="head2_1_1">
+                            <img src="h1.jpg" style="width: 50px;"> 
+                        </div>
+                        <div class="head2_1_2">
+                            <p>So diem tich luy</p>
+                            <b>400</b>
+                        </div>
+                    </div>
+                    <div class="head2_1">
+                        <div class="head2_1_1">
+                            <img src="h1.jpg" style="width: 50px;"> 
+                        </div>
+                        <div class="head2_1_2">
+                            <p>So diem tich luy</p>
+                            <b>400</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-mid">
+                <div class="mid1">
+                    <img src="h1.jpg" style="width: 100%;height: 100%;">
+                </div>
+                <div class="mid2">
+                    <div class="mid2-text">
+                        <h3>ve san pham</h3>
+                        <p>san pham ha het la nhung vat san pham ha het la nhung vat san pham ha het la nhung vat</p>
+                    </div>
+                    <div class="mid2-ul">
+                        <div class="ul-right">
+                            <ul>
+                                <li>An toan cho nguoi dung</li>
+                                <li>san pham co the dung lai</li>
+                            </ul>
+                        </div>
+                        <div class="ul-left">
+                            <ul>
+                                <li>An toan cho nguoi dung</li>
+                                <li>san pham co the dung lai</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mid2-bt">
+                        <input type="button" name="Tim hieu them" value="Tim hieu them" style="width: 400px;height: 30px; border-radius: 50px;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="right-foot">
+                <div class="foot1">
+                    <div class="foot1_1">
+                        <img src="h1.jpg" style="width: 50px;height: 50px; margin: 10px;border-radius: 100px;">
+                        
+                    </div>
+                    <div class="foot1_2">
+                        <h3>Bao ve rung</h3>
+                        <b style="text-align: center;">nhung nam gan daym dien tich rung tu nhien o viet nam</b>
+                    </div>
+                    <div class="foot1_3">
+                        <p style="text-align: center;">Tham khao ngay</p>
+                    </div>
+                </div>
+                <div class="foot1">
+                    <div class="foot1_1">
+                        <img src="h1.jpg" style="width: 50px;height: 50px; margin: 10px;border-radius: 100px;">
+                        
+                    </div>
+                    <div class="foot1_2">
+                        <h3>Bao ve rung</h3>
+                        <b style="text-align: center;">nhung nam gan daym dien tich rung tu nhien o viet nam</b>
+                    </div>
+                    <div class="foot1_3">
+                        <p style="text-align: center;">Tham khao ngay</p>
+                    </div>
+                </div>
+                <div class="foot1">
+                    <div class="foot1_1">
+                        <img src="h1.jpg" style="width: 50px;height: 50px; margin: 10px;border-radius: 100px;">
+                        
+                    </div>
+                    <div class="foot1_2">
+                        <h3>Bao ve rung</h3>
+                        <b style="text-align: center;">nhung nam gan daym dien tich rung tu nhien o viet nam</b>
+                    </div>
+                    <div class="foot1_3">
+                        <p style="text-align: center;">Tham khao ngay</p>
+                    </div>
+                </div>
+                <div class="foot1">
+                    <div class="foot1_1">
+                        <img src="h1.jpg" style="width: 50px;height: 50px; margin: 10px;border-radius: 100px;">
+                        
+                    </div>
+                    <div class="foot1_2">
+                        <h3>Bao ve rung</h3>
+                        <b style="text-align: center;">nhung nam gan daym dien tich rung tu nhien o viet nam</b>
+                    </div>
+                    <div class="foot1_3">
+                        <p style="text-align: center;">Tham khao ngay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test1</title>
+</head>
+<style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.child1{
+    width: 100%;
+    height: 425px;
+    
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid brown;
+}
+.child2{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+}
+.child1_1{
+    width: 50%;
+    height: 100%;
+    
+    margin: 10px 5px 0px 10px;
+}
+.child1_2{
+    width: 50%;
+    height: 100%;
+    
+    margin: 10px 10px 0px 5px;
+    display: flex;
+    flex-direction: row;
+}
+.child1_4{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.child1_3{
+    width: 50%;
+    height: 100%;
+    
+}
+.child1_1 > img {
+    width: 100%;
+    height: 60%;
+}
+.child1_1 > h2{
+    color: rgb(42, 42, 101);
+}
+.child1_31{
+    width: 100%;
+    height: 180px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.child1_32{
+    width: 100%;
+    height: 180px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.child1_33{
+    width: 100%;
+    height: 65px;
+    
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.imgbox{
+    width: 100%;
+    height: 110px;
+    
+    margin-bottom: 5px;
+}
+.textbox{
+    width: 100%;
+    height: 65px;
+    
+}
+.textbox1_4{
+    width: 100%;
+    height: 65px;
+    
+}
+.child2_1{
+    border-bottom: 1px solid brown;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.child2_2{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    flex-direction: row;
+}
+.child2_2_1{
+    width: 50%;
+    height: 100%;
+    margin: 10px 5px 0px 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.img2_2_1{
+    border: 1px solid brown;
+    width: 50%;
+    height: 195px;
+    background: red;
+}
+.head{
+    
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.foot{
+    width: 100%;
+    height: 170px;
+    display:  flex;
+    flex-direction: row;
+}
+.foot1{
+    
+    width: 50%;
+    height: 100%;
+    margin-right: 5px;
+}
+.foot2{
+    
+    width: 50%;
+    height: 100%;
+    margin-left: 5px;
+
+}
+.child2_2_2{
+   
+    width: 50%;
+    height: 100%;
+    margin: 10px 5px 0px 10px;
+    display: flex;
+}
+.foot3{
+    
+    width: 50%;
+    height: 100%;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.foot4{
+   
+    width: 50%;
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.foot3_1{
+    
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+}
+.foot3_2{
+    
+    width: 100%;
+    height: 40%;
+}
+.foot4_1{
+    
+    width: 100%;
+    height: 75px;
+}
+@media only screen and (max-width: 780px){
+   .child1{
+    flex-direction: column;
+    height: 900px;
+   }
+   .child1_1{
+    width: 100%;
+    height: 50%;
+   }
+   .child1_2{
+    width: 100%;
+    height: 50%;
+   }
+
+   .child2_2{
+    flex-direction: column;
+    height: 600px;
+   }
+   .child2_1{
+    width: 100%;
+    text-align: center;
+   }
+   .child2_2_1{
+    width: 100%;
+   }
+   .child2_2_2{
+    width: 100%;
+   }
+
+}
+</style>
+<body>
+    <div class="container">
+        <div class="child1">
+            <div class="child1_1">
+                <img src="xe.jpg">
+                <br>
+                <h2>Bị đánh chết sau khi cãi nhau với CSGT</h2>
+                <br>
+                <p style="color: rgb(156, 149, 149);">Pháp luật TPHCM - 5 giờ trước</p>
+                <p style="color: rgb(81, 70, 70);">Công an đang làm rõ vì sao nạn nhân bị đánh vô cớ dẫn đến tử vong</p>
+            </div>
+            <div class="child1_2">
+                <div class="child1_3">
+                    <div class="child1_31">
+                        <div class="imgbox">
+                            <img src="xe.jpg" style="width: 100%; height: 100%;">
+                        </div>
+                        <div class="textbox">
+                            <p style="color:rgb(156, 149, 149) ;">Thanh niên</p>
+                            <p style="color: rgb(81, 70, 70);">Hé lộ nội tình lục đục vì Kim Jong-un tại Triều Tiên</p>
+                        </div>
+                    </div>
+                    <div class="child1_32">
+                        <div class="imgbox">
+                            <img src="xe.jpg" style="width: 100%; height: 100%;">
+                        </div>
+                        <div class="textbox">
+                            <p style="color:rgb(156, 149, 149) ;">Tuổi trẻ</p>
+                            <p style="color: rgb(81, 70, 70);">Giật mình với thuế thu nhập của "sao"</p>
+                            <br>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="child1_33">Xem các thông tin khác</div>
+                </div>
+                <div class="child1_4">
+                    <div class="textbox1_4">
+                        <p style="color:rgb(156, 149, 149) ;">Đại Đoàn Kết</p>
+                        <p style="color: darkblue;">Tứ kết lượt về Champions League: Kịch tính....</p>
+                        <hr>
+                    </div>
+                    <div class="textbox1_4">
+                        <p style="color:rgb(156, 149, 149) ;">Đại Đoàn Kết</p>
+                        <p style="color: darkblue;">Tứ kết lượt về Champions League: Kịch tính....</p>
+                        <hr>
+                    </div>
+                    <div class="textbox1_4">
+                        <p style="color:rgb(156, 149, 149) ;">Đại Đoàn Kết</p>
+                        <p style="color: darkblue;">Tứ kết lượt về Champions League: Kịch tính....</p>
+                        <hr>
+                    </div>
+                    <div class="textbox1_4">
+                        <p style="color:rgb(156, 149, 149) ;">Đại Đoàn Kết</p>
+                        <p style="color: darkblue;">Tứ kết lượt về Champions League: Kịch tính....</p>
+                        <hr>
+                    </div>
+                    <div class="textbox1_4">
+                        <p style="color:rgb(156, 149, 149) ;">Đại Đoàn Kết</p>
+                        <p style="color: darkblue;">Tứ kết lượt về Champions League: Kịch tính....</p>
+                        <hr>
+                    </div>
+                    <div class="textbox1_4">
+                        <p style="color:rgb(156, 149, 149) ;">Đại Đoàn Kết</p>
+                        <p style="color: darkblue;">Tứ kết lượt về Champions League: Kịch tính....</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="child2">
+            <div class="child2_1">
+                <h2>Trung Quốc leo thang tại Biển Đông</h2>
+            </div>
+            <div class="child2_2">
+                <div class="child2_2_1">
+                    <div class="head">
+                        <h2 style="color: darkblue;">Hải quân Trung Quốc cần thiết phải 'nuôi giữ tinh thần chiến đấu'</h2>
+                    </div>
+                    <div class="foot">
+                        <div class="foot1">
+                            <img src="xe.jpg" style="width: 100%; height: 80%;">
+                        </div>
+                        <div class="foot2">
+                            <p style="color: rgb(156, 149, 149);">Petrotimes</p>
+                            <p><h4>(Petrotimes)-Truyền hình nhà nước Trung Quốc CCTV ngày 11/4 đã phát đi bản tin về chuyến thị sát....</h4></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="child2_2_2">
+                    <div class="foot3">
+                        <div class="foot3_1">
+                            <img src="xe.jpg" style="width: 100%; height: 100%;">
+                        </div>
+                        <div class="foot3_2">
+                            <p style="color: rgb(156, 149, 149);">Kienthuc.net.vn</p>
+                            <h4 style="color: darkblue;">Bao giờ Biến Đông lặng sóng?</h4>
+                        </div>
+                    </div>
+                    <div class="foot4">
+                        <div class="foot4_1">
+                            <p style="color: rgb(156, 149, 149);">Vnmedia</p>
+                            <h4 style="color: darkblue;">ASEAN, Trung Quốc họp đặc biệt về tranh chấp...</h4>
+                            <br>
+                            <hr>
+                        </div>
+                        <div class="foot4_1"><p style="color: rgb(156, 149, 149);">Báo đất Việt</p>
+                            <h4 style="color: darkblue;">ASEAN không ra được tuyên bố chung về biến Đông</h4>
+                            <br>
+                            <hr></div>
+                        <div class="foot4_1"><p style="color: rgb(156, 149, 149);">Vnmedia</p>
+                            <h4 style="color: darkblue;">Ông Tập Cận Bình kêu gọi hải quân chuẩn bị chiến...</h4>
+                            <br>
+                            <hr></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

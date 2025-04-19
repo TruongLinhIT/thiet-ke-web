@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nhap</title>
+</head>
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 900px;
+        background: wheat;
+        background-image: url("back4.jpg") ;
+        background-size: cover; /* Đảm bảo ảnh phủ toàn bộ phần tử */
+        background-position: center;
+        
+        
+}
+.head{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.mid{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.head1, .head2 {
+    width: 50%;
+    height: 100%;
+   
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.head2{
+    padding: 20px;
+    color: #5A3E1B;
+}
+
+.head1 > img{
+    border-radius: 50%;
+    border: 5px solid #80642d;
+    margin: 10px;
+}
+
+.mid1{
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    color: #5A3E1B;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+}
+.mid2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid2 > img{
+    border-radius: 10%;
+    border: 5px solid #80642d;
+}
+
+.foot1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot1 > img{
+    border-radius: 10%;
+    border: 5px solid #80642d;
+}
+
+.foot2{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    color: #5A3E1B;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        
+        <div class="head">
+            <div class="head1">
+                <img src="h2.jpg" style="width: 80%;height: 100%;">
+            </div>
+            <div class="head2">
+                <h2><i>My name is</i> </h2>
+                <h1><b>Trương Vĩnh Trường Linh</b></h1>
+                <br>
+                <h2>26.02.2006</h2>
+                <br>
+                <h2>height: 172cm</h2>
+                <br>
+                <h2>Class: 24IT2</h2>
+            </div>
+        </div>
+
+        <div class="mid">
+            <div class="mid1">
+                <h1><i>About Me</i></h1>
+                <br>
+                <h3>My name is Linh, and I come from Da Nang. Currently, I am a student at VietNam-Korea University of Information and Communication Technology (VKU)</h3>
+            </div>
+            <div class="mid2">
+                <img src="h1.jpg" style="width: 70%;height: 90%;">
+            </div>
+        </div>
+
+        <div class="foot">
+            <div class="foot1">
+                <img src="h3.jpg" style="width: 70%;height: 90%;">
+            </div>
+            <div class="foot2">
+                <h1><i>My Hobby</i></h1>
+                <br>
+                <h3>My hobby is football, and I am especially a die-hard fan of Manchester United. I love football because it helps me relieve stress after long and intense coding sessions. Besides that, I also enjoy traveling, as it allows me to explore new places, experience different cultures, and create unforgettable memories</h3>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

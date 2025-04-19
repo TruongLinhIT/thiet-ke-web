@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;}
+
+#header {
+    background: rgb(220, 97, 220);
+    min-height: 50px;
+    width: 250px;
+}
+
+#mid {
+    background: rgb(77, 202, 237);
+    margin: 10px;
+    height: 20px;
+    width: 230px;
+    
+}
+
+#mid-buttom {
+    background: rgb(77, 202, 237);
+    margin: 10px;
+    height: 75px;
+    width: 230px;
+}
+
+#end {
+    background: blue;
+    width: 250px;
+    min-height: 40px;
+}
+
+.clr {
+    clear: both;
+}
+
+.stmid {
+    float: left;
+}
+
+h1 {
+    text-align: center;
+}
